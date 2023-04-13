@@ -10,7 +10,7 @@ import {
 } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js";
 
 const appSettings = {
-  databaseURL: DATABASE_URL,
+  databaseURL: "https://realtime-database-1dcca-default-rtdb.firebaseio.com/",
 };
 
 const app = initializeApp(appSettings);
